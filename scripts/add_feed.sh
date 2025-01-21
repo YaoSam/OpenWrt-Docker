@@ -5,3 +5,4 @@
 cat >> feeds.conf.default <<EOF
 src-git kiddin9 https://github.com/kiddin9/kwrt-packages
 EOF
+./scripts/feeds update -a
