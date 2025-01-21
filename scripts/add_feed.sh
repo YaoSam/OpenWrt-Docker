@@ -2,7 +2,7 @@
 # cd ~/openwrt
 
 # 添加自定义源
-cat >> feeds.conf.default <<EOF
-src-git kiddin9 https://github.com/kiddin9/kwrt-packages
-EOF
-./scripts/feeds update -a
+# cat >> feeds.conf.default <<EOF
+# src-git kiddin9 https://github.com/kiddin9/kwrt-packages
+# EOF
+git clone https://github.com/asvow/luci-app-tailscale package/luci-app-tailscale
